@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\",
+  "WorkspaceRootPath": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|c:\\users\\nehab\\source\\repos\\weatherdetails\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|c:\\users\\nehab\\source\\repos\\weatherapi-test\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|c:\\users\\nehab\\source\\repos\\weatherdetails\\weatherapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|c:\\users\\nehab\\source\\repos\\weatherapi-test\\weatherapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15C7EB11-6738-4E61-A674-42C09E985598}|WeatherApi.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\Program.cs",
+              "ToolTip": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T05:54:56.485Z",
               "EditorCaption": ""
@@ -67,9 +67,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WeatherController.cs",
-              "DocumentMoniker": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\Controllers\\WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
-              "ToolTip": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "Controllers\\WeatherController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

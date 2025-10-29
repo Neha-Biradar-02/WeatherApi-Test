@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e9r2/26MctQ=",
+  "dgSpecHash": "Si5RkYK1lEY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi.Tests\\WeatherApi.Tests.csproj",
+  "projectFilePath": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi.Tests\\WeatherApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nehab\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\nehab\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\WeatherApi.csproj": {}
+    "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\WeatherApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\WeatherApi.csproj": {
+    "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\WeatherApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\WeatherApi.csproj",
+        "projectUniqueName": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\WeatherApi.csproj",
         "projectName": "WeatherApi",
-        "projectPath": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\WeatherApi.csproj",
+        "projectPath": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\WeatherApi.csproj",
         "packagesPath": "C:\\Users\\nehab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nehab\\source\\repos\\WeatherDetails\\WeatherApi\\obj\\",
+        "outputPath": "C:\\Users\\nehab\\source\\repos\\WeatherApi-Test\\WeatherApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
