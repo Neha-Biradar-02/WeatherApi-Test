@@ -1,0 +1,132 @@
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background container — fills entire viewport */
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-image 0.8s ease-in-out;
+}
+
+/* Weather condition backgrounds */
+.sunny-bg{
+  background-image: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1600&q=80');
+}
+
+.rainy-bg {
+  background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1600&q=80');
+}
+
+.snowy-bg {
+  background-image: url('https://images.unsplash.com/photo-1612005690679-1a6600a67c94?auto=format&fit=crop&w=1600&q=80');
+}
+
+.windy-bg {
+  background-image: url('https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1600&q=80');
+}
+
+.default-bg {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');
+}
+
+/* Weather card in the center */
+.weather-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 400px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+h1 {
+  color: #0077ff;
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.input-container input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-container button {
+  padding: 0.8rem;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #005fd1;
+  transform: scale(1.03);
+}
+
+.weather-card {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f3f8ff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 119, 255, 0.2);
+  text-align: left;
+}
+
+.weather-card p {
+  margin: 0.4rem 0;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #e63946;
+  font-weight: 600;
+}
+
+.loader {
+  margin: 1rem auto;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0077ff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.9s linear infinite;
+}
+
+/* Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
