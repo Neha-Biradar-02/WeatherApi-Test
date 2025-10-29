@@ -52,26 +52,14 @@ http://localhost:5002/weather?lat=-41.2865&lon=174.7762
 
 Improvements I would make with more time:
 
-Better error handling:
+Better error handling: Right now, if the external weather API fails, the app may throw an error. I would add proper try-catch blocks, logging, and retry mechanisms to make it more resilient.
 
-Right now, if the external weather API fails, the app may throw an error. I would add proper try-catch blocks, logging, and retry mechanisms to make it more resilient.
+Input validation & security: I would validate latitude and longitude inputs to avoid invalid requests and add basic security measures like API key checks or rate limiting.
 
-Input validation & security:
+Performance improvements: To reduce repeated API calls for the same city, I would implement caching so that frequent requests are faster.
 
-I would validate latitude and longitude inputs to avoid invalid requests and add basic security measures like API key checks or rate limiting.
+More useful recommendations: Currently, recommendations are basic. I would improve them by considering factors like wind, humidity, or user preferences for clothing.
 
-Performance improvements:
+Testing & maintainability: I would add more unit and integration tests to cover edge cases. Also, refactor code to separate responsibilities more clearly for easier maintenance.
 
-To reduce repeated API calls for the same city, I would implement caching so that frequent requests are faster.
-
-More useful recommendations:
-
-Currently, recommendations are basic. I would improve them by considering factors like wind, humidity, or user preferences for clothing.
-
-Testing & maintainability:
-
-I would add more unit and integration tests to cover edge cases. Also, refactor code to separate responsibilities more clearly for easier maintenance.
-
-API documentation:
-
-I would enhance Swagger/OpenAPI docs to include example responses, error codes, and instructions, making it easier for other developers to use.
+API documentation: I would enhance Swagger/OpenAPI docs to include example responses, error codes, and instructions, making it easier for other developers to use.
